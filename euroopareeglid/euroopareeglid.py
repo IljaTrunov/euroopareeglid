@@ -128,43 +128,6 @@ elif countries in Capital:
     print('Страна столицы ' + Countries + ': ' + Capital[countries])
 else:
     print('В базе нет страны c названием ' + countries)
-p=input("Хотите ли пройти тест на знания столиц Европы? 1-Да или 2-Нет? ")
-if p=="1":
-        Countries.sort()
-        Countries.reverse()
-        m=0
-        for i in range(10):
-            print(choices(Countries))
-            st=input("Введите столицу: ")
-            if st in Capitals:
-                    print("Правильно!")
-                    m+=1
-            else:
-                print("Неправильно!")
-        if m==0:
-            print("0%")
-        elif m==1:
-            print("10%")
-        elif m==2:
-            print("20%")
-        elif m==3:
-            print("30%")
-        elif m==4:
-            print("40%")
-        elif m==5:
-            print("50%")
-        elif m==6:
-            print("60%")
-        elif m==7:
-            print("70%")
-        elif m==8:
-            print("80%")
-        elif m==9:
-            print("90%")
-        elif m==10:
-            print("100%")
-if p=="2":
-        print("Пока!")
 while True:
     print("Хочешь что-то исправить? \n1-Да \n2 - Нет")
     valik_=input()
