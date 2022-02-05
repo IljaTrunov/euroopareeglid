@@ -1,4 +1,4 @@
-﻿def lisa_sõna(Pealinnad:dict, a:str)->dict:
+def lisa_sõna(Pealinnad:dict, a:str)->dict:
 	"""
 	"""
 	a=input("Введите значение слова: ") #просим ввести значение
